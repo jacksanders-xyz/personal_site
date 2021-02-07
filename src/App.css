@@ -1,38 +1,161 @@
 .App {
-  text-align: center;
+  background-color: rgba(255, 249, 255, 255);
+  display: flex;
+  flex-direction: column;
+  height: 100vmin;
+  justify-content: center;
 }
 
+.mainContainer{
+  background-color: rgba(255, 249, 255, 255);
+  margin-left: auto;
+  display: flex;
+  height: 100vmin;
+  justify-content: center;
+} 
 .App-logo {
-  height: 40vmin;
+  height: 120vmin;
+  position: relative;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jackNameWrap {
+  font-size: 4vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#char1 {
+  position: relative;
+  right: 35vmin;
+  top: 6vmin;
 }
 
-.App-link {
-  color: #61dafb;
+#char2 {
+  transform: rotate(6deg);
+  position: relative;
+  right: 38vmin;
+  top: 5.9vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#char3 {
+  position: relative;
+  right: 46.2vmin;
+  top: 4.7vmin;
+  transform: rotate(18deg);
 }
+#char4 {
+  position: relative;
+  right: 52.7vmin;
+  top: 3.1vmin;
+  transform: rotate(28deg);
+}
+  
+#char5 {
+  position: relative;
+  right: 59.2vmin;
+  top: 0.6vmin;
+  transform: rotate(44deg);
+}
+#char6 {
+  position: relative;
+  right: 66.6vmin;
+  top: -5vmin;
+  transform: rotate(58.4deg);
+}
+#char7 {
+  position: relative;
+  right: 71.3vmin;
+  top: -10.2vmin;
+  transform: rotate(70.8deg);
+}
+#char8 {
+  position: relative;
+  right: 74.2vmin;
+  top: -13.0vmin;
+  transform: rotate(79.8deg);
+}
+#char9 {
+  position: relative;
+  right: 77.3vmin;
+  top: -15.7vmin;
+  transform: rotate(88.8deg);
+}
+#char10 {
+  position: relative;
+  right: 80.6vmin;
+  top: -18.2vmin;
+  transform: rotate(98.8deg);
+}
+#char11 {
+  position: relative;
+  right: 83.6vmin;
+  top: -20.8vmin;
+  transform: rotate(108.8deg);
+}
+#char12 {
+  position: relative;
+  right: 85.6vmin;
+  top: -23.2vmin;
+  transform: rotate(118.8deg);
+}
+#char13 {
+  position: relative;
+  right: 89.6vmin;
+  top: -24.2vmin;
+  transform: rotate(128.8deg);
+}
+#char14 {
+  position: relative;
+  right: 75.6vmin;
+  top: 49.5vmin;
+  transform: rotate(31.8deg);
+}
+#char15 {
+  position: relative;
+  right: 83.6vmin;
+  top: 45.5vmin;
+  transform: rotate(45.8deg);
+}
+#char16 {
+  position: relative;
+  right: 94.2vmin;
+  top: 33.7vmin;
+  transform: rotate(68.8deg);
+}
+#char17 {
+  position: relative;
+  right: 99.1vmin;
+  top: 19.7vmin;
+  transform: rotate(92.1deg);
+}
+#char18 {
+  position: relative;
+  right: 101.8vmin;
+  top: 19.1vmin;
+  transform: rotate(98.4deg);
+}
+#char19 {
+  position: relative;
+  right: 105.8vmin;
+  top: 23.8vmin;
+  transform: rotate(98.4deg);
+}
+
+
+
+/* @media (prefers-reduced-motion: no-preference) { */
+/*   .App-logo { */
+/*     animation: App-logo-spin infinite 20s linear; */
+/*   } */
+/* } */
+
+
+/* @keyframes App-logo-spin { */
+/*   from { */
+/*     transform: rotate(0deg); */
+/*   } */
+/*   to { */
+/*     transform: rotate(360deg); */
+/*   } */
+/* } */
+
+

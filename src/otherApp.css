@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  background-color: rgba(255, 249, 255, 255);
+  display: flex;
+  height: 100vh;
+  height: 100vmin;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 120vmin;
+  position: relative;
+  pointer-events: none;
+}
+
+.jackNameWrap {
+  font-size: 4vmin;
+}
+
+#char1 {
+  position: relative;
+  right: 35vmin;
+  top: 6vmin;
+}
+
+#char2 {
+  transform: rotate(6deg);
+  position: relative;
+  right: 38vmin;
+  top: 5.9vmin;
+}
+
+#char3 {
+  position: relative;
+  right: 46.2vmin;
+  top: 4.7vmin;
+  transform: rotate(18deg);
+}
+#char4 {
+  position: relative;
+  right: 52.7vmin;
+  top: 3.1vmin;
+  transform: rotate(28deg);
+}
+  
+#char5 {
+  position: relative;
+  right: 59.2vmin;
+  top: 0.8vmin;
+  transform: rotate(44deg);
+}
+#char6 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char7 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char8 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char9 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char10 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char11 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+#char12 {
+  position: fixed;
+  left: 53%;
+  top: 6%;
+}
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) { */
+/*   .App-logo { */
+/*     animation: App-logo-spin infinite 20s linear; */
+/*   } */
+/* } */
+
+
+/* @keyframes App-logo-spin { */
+/*   from { */
+/*     transform: rotate(0deg); */
+/*   } */
+/*   to { */
+/*     transform: rotate(360deg); */
+/*   } */
+/* } */
