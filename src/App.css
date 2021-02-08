@@ -221,7 +221,6 @@
 .poolWordsContainer {
   transform: rotate(20deg);
   position: absolute;
-  font-size: 4vh;
   top: 3.4vh;
   left: 45vh;
   height: 18vh;
@@ -248,6 +247,7 @@
   transform: rotate(52deg);
 }
 .pool {
+  z-index: 1;
   position: absolute;
   height: 28vh;
   width: 54.8vh;
@@ -262,7 +262,16 @@
   height: 25vh;
   width: 99vw;
 }
-
+.keyboardWordsContainer {
+  font-size: 3.6vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: rotate(-72.5deg);
+  height: 25vh;
+  width: 25vh;
+  right: 30.9vh;
+}
 .keyboard{
   position: absolute;
   align-self: flex-start;
@@ -273,7 +282,6 @@
 }
 
 .shakinghandsSubContainer {
-  font-size: 4vh;
   position: fixed;
   display: flex;
   align-self: flex-end;
