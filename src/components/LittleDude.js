@@ -1,8 +1,8 @@
 import computerJack from '../assets/computerJack.jpg';
 
-export function LittleDude(props) {
+export function LittleDude() {
   return (     
-    <div className="mainContainer">
+    <div className="littleDudeContainer">
           <img src={computerJack} className="App-logo" alt="logo"/>
           <span className="jackNameWrap" id="char1">J</span>
           <span className="jackNameWrap" id="char2">A</span>
