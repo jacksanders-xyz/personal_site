@@ -140,6 +140,16 @@
   right: 13.4vh;
 }
 
+.mainContainer {
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
 .tentacleContainer {
   position: absolute;
   display: flex;
@@ -156,16 +166,40 @@
   cursor: pointer;
 }
 
-.shakinghandsContainer {
+.poolContainer {
   position: absolute;
   display: flex;
-  align-self: flex-end;
-  justify-content: flex-end;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-bottom: 8vh; 
+  margin-right: 2.6vh; 
+  margin-top: 0.6vh; 
+  height: 35vh;
+  width: 99vw;
+}
+.pool {
+  height: 28vh;
+  width: 54.8vh;
+  cursor: pointer;
 }
 
+
+
+.keyboardContainer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  margin-bottom: 8vh; 
+  height: 25vh;
+  width: 99vw;
+}
+
+.keyboard{
+  height: 21vh;
+  width: 54.8vh;
+  cursor: pointer;
+}
 
 .shakinghandsSubContainer {
   position: fixed;
