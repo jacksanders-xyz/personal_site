@@ -39,10 +39,3 @@ export default App;
 
 
 
-            // <span className="jackNameWrap" id="char6">S</span>
-            // <span className="jackNameWrap" id="char7">A</span>
-            // <span className="jackNameWrap" id="char8">N</span>
-            // <span className="jackNameWrap" id="char9">D</span>
-            // <span className="jackNameWrap" id="char10">E</span>
-            // <span className="jackNameWrap" id="char11">R</span>
-            // <span className="jackNameWrap" id="char12">S</span>

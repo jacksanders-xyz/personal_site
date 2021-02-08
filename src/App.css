@@ -1,143 +1,143 @@
 .App {
   background-color: rgba(255, 249, 255, 255);
   display: flex;
-  flex-direction: column;
-  height: 100vmin;
+  flex: grow;
   justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .mainContainer{
   background-color: rgba(255, 249, 255, 255);
-  margin-left: auto;
+  position: relative;
+  width: 56.8vh;
   display: flex;
-  height: 100vmin;
   justify-content: center;
+  align-items: center;
 } 
 .App-logo {
-  height: 120vmin;
-  position: relative;
-  pointer-events: none;
+  height: 80vh;
+  width: 56.8vh;
+  align-self: flex-start;
 }
 
 .jackNameWrap {
-  font-size: 4vmin;
+  font-size: 3.6vh;
+
 }
 
 #char1 {
-  position: relative;
-  right: 35vmin;
-  top: 6vmin;
+  position: absolute;
+  top: 3.05%;
+  right: 21.8vh;
 }
-
 #char2 {
-  transform: rotate(6deg);
-  position: relative;
-  right: 38vmin;
-  top: 5.9vmin;
+  position: absolute;
+  transform: rotate(14deg);
+  top: 3.7%;
+  right: 17.3vh;
 }
-
 #char3 {
-  position: relative;
-  right: 46.2vmin;
-  top: 4.7vmin;
-  transform: rotate(18deg);
+  position: absolute;
+  transform: rotate(28deg);
+  top: 5.4%;
+  right: 13.0vh;
 }
 #char4 {
-  position: relative;
-  right: 52.7vmin;
-  top: 3.1vmin;
-  transform: rotate(28deg);
+  position: absolute;
+  transform: rotate(43.8deg);
+  top: 8.0%;
+  right: 9.4vh;
 }
-  
 #char5 {
-  position: relative;
-  right: 59.2vmin;
-  top: 0.6vmin;
-  transform: rotate(44deg);
+  position: absolute;
+  transform: rotate(65.9deg);
+  top: 14.2%;
+  right: 5.3vh;
 }
 #char6 {
-  position: relative;
-  right: 66.6vmin;
-  top: -5vmin;
-  transform: rotate(58.4deg);
+  position: absolute;
+  transform: rotate(85.9deg);
+  top: 18.6%;
+  right: 4.4vh;
 }
 #char7 {
-  position: relative;
-  right: 71.3vmin;
-  top: -10.2vmin;
-  transform: rotate(70.8deg);
+  position: absolute;
+  transform: rotate(96.0deg);
+  top: 22.8%;
+  right: 4.65vh;
 }
 #char8 {
-  position: relative;
-  right: 74.2vmin;
-  top: -13.0vmin;
-  transform: rotate(79.8deg);
+  position: absolute;
+  transform: rotate(111.0deg);
+  top: 26.6%;
+  right: 5.6vh;
 }
 #char9 {
-  position: relative;
-  right: 77.3vmin;
-  top: -15.7vmin;
-  transform: rotate(88.8deg);
+  position: absolute;
+  transform: rotate(126.2deg);
+  top: 30.45%;
+  right: 7.6vh;
 }
 #char10 {
-  position: relative;
-  right: 80.6vmin;
-  top: -18.2vmin;
-  transform: rotate(98.8deg);
+  position: absolute;
+  transform: rotate(135.2deg);
+  top: 34.0%;
+  right: 10.3vh;
 }
 #char11 {
-  position: relative;
-  right: 83.6vmin;
-  top: -20.8vmin;
-  transform: rotate(108.8deg);
+  position: absolute;
+  transform: rotate(39.2deg);
+  top: 37.6%;
+  right: 8.4vh;
 }
 #char12 {
-  position: relative;
-  right: 85.6vmin;
-  top: -23.2vmin;
-  transform: rotate(118.8deg);
+  position: absolute;
+  transform: rotate(62.8deg);
+  top: 40.4%;
+  right: 6.0vh;
 }
 #char13 {
-  position: relative;
-  right: 89.6vmin;
-  top: -24.2vmin;
-  transform: rotate(128.8deg);
+  position: absolute;
+  transform: rotate(92.2deg);
+  top: 46.4%;
+  right: 4.9vh;
 }
 #char14 {
-  position: relative;
-  right: 75.6vmin;
-  top: 49.5vmin;
-  transform: rotate(31.8deg);
+  position: absolute;
+  transform: rotate(114.2deg);
+  top: 50.2%;
+  right: 5.8vh;
 }
 #char15 {
-  position: relative;
-  right: 83.6vmin;
-  top: 45.5vmin;
-  transform: rotate(45.8deg);
+  position: absolute;
+  transform: rotate(100.2deg);
+  top: 53.8%;
+  right: 6.6vh;
 }
 #char16 {
-  position: relative;
-  right: 94.2vmin;
-  top: 33.7vmin;
-  transform: rotate(68.8deg);
+  position: absolute;
+  transform: rotate(104.2deg);
+  top: 57.8%;
+  right: 7.25vh;
 }
 #char17 {
-  position: relative;
-  right: 99.1vmin;
-  top: 19.7vmin;
-  transform: rotate(92.1deg);
+  position: absolute;
+  transform: rotate(108.2deg);
+  top: 61.2%;
+  right: 8.3vh;
 }
 #char18 {
-  position: relative;
-  right: 101.8vmin;
-  top: 19.1vmin;
-  transform: rotate(98.4deg);
+  position: absolute;
+  transform: rotate(130.2deg);
+  top: 64.6%;
+  right: 10.1vh;
 }
 #char19 {
-  position: relative;
-  right: 105.8vmin;
-  top: 23.8vmin;
-  transform: rotate(98.4deg);
+  position: absolute;
+  transform: rotate(163.2deg);
+  top: 66.6%;
+  right: 13.4vh;
 }
 
 
