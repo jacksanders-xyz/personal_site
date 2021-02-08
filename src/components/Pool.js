@@ -1,6 +1,11 @@
 import poolPic from '../assets/pool2.png';
 
 export function Pool(props) {
+ 
+  function goTo() {
+    window.location.href = "https://jack-sanders-xyz.medium.com/" 
+}
+
   return (     
       <div className="poolContainer">
         <div className= "poolWordsContainer"> 
@@ -9,7 +14,7 @@ export function Pool(props) {
           <span className="pictureWords" id="pool_char3">O</span> 
           <span className="pictureWords" id="pool_char4">G</span> 
         </div>
-        <img src={poolPic} className="pool" alt="logo"/>
+        <img src={poolPic} onClick={() => goTo()} className="pool" alt="logo"/>
       </div>
     );
 }
