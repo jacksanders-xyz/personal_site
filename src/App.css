@@ -182,9 +182,6 @@
   width: 54.8vh;
   cursor: pointer;
 }
-
-
-
 .keyboardContainer {
   position: absolute;
   display: flex;
@@ -196,8 +193,11 @@
 }
 
 .keyboard{
+  position: absolute;
+  align-self: flex-start;
   height: 21vh;
   width: 54.8vh;
+  z-index: 1;
   cursor: pointer;
 }
 

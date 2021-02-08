@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <div className="App">
           <LittleDude />
-        <div className="mainContainer">
           <Keyboard />
+        <div className="mainContainer">
           <Pool />
           <Tentacle />
           <ShakingHands />
