@@ -9,7 +9,6 @@
 
 .littleDudeContainer{
   background-color: rgba(255, 249, 255, 255);
-  border: 1px solid;
   position: relative;
   width: 56.8vh;
   display: flex;
@@ -157,29 +156,76 @@
 }
 
 .shakinghandsContainer {
+  position: absolute;
   display: flex;
   align-self: flex-end;
   justify-content: flex-end;
   overflow: hidden;
-  position: absolute;
   height: 100%;
-  width: 100vw;
+  width: 100%;
 }
+
+
+.shakinghandsSubContainer {
+  position: fixed;
+  display: flex;
+  align-self: flex-end;
+  overflow: hidden;
+  justify-content: flex-end;
+  height: 103vh;
+  width: 96.8vh;
+}
+
 .shakinghands {
   position: absolute;
-  background-position: center bottom;
-  transform: rotate(-42.2deg);
-  border: solid 1px; 
-  top: 66.54vh;
-  left: 74.6vw;
-  height: 44vh;
-  width: 37vw;
+  align-self: flex-end;
+  transform: rotate(-46.2deg);
+  height: 43vh;
+  width: 64.8vh;
+  top: 67vh;
+  left: 50.6vh;
 }
+
+
+
+
+
+/* .shakinghands { */
+/*   position: absolute; */
+  /* transform: rotate(-42.2deg); */
+  /* border: solid 1px; */ 
+  /* top: 66.54vh; */
+/*   height: 43vh; */
+  /* left: 144.9vh; */
+/*   width: 66.8vh; */
+/* } */
+
+
+
+/* .shakinghands { */
+/*   position: fixed; */
+/*   transform: rotate(-42.2deg); */
+/*   border: solid 1px; */ 
+/*   top: 66.54vh; */
+/*   height: 44vh; */
+/*   left: 74.6vw; */
+/*   width: 66.8vh; */
+/* } */
+
+
+
+
+
 /* @media (prefers-reduced-motion: no-preference) { */
 /*   .App-logo { */
 /*     animation: App-logo-spin infinite 20s linear; */
 /*   } */
 /* } */
+
+
+
+
+
 
 
 /* @keyframes App-logo-spin { */
