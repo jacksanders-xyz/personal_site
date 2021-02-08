@@ -218,7 +218,37 @@
   height: 35vh;
   width: 99vw;
 }
+.poolWordsContainer {
+  transform: rotate(20deg);
+  position: absolute;
+  font-size: 4vh;
+  top: 3.4vh;
+  left: 45vh;
+  height: 18vh;
+  width: 18vh;
+}
+#pool_char1 {  
+  position: absolute;
+  left: 3vh;
+}
+#pool_char2 {  
+  position: absolute;
+  left: 5.0vh;
+}
+#pool_char3 {  
+  position: absolute;
+  top: .8vh;
+  left: 7.1vh;
+  transform: rotate(49deg);
+}
+#pool_char4 {  
+  position: absolute;
+  top: 7.6vh;
+  left: 8.4vh;
+  transform: rotate(52deg);
+}
 .pool {
+  position: absolute;
   height: 28vh;
   width: 54.8vh;
   cursor: pointer;
