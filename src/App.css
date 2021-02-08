@@ -23,7 +23,6 @@
 
 .jackNameWrap {
   font-size: 3.6vh;
-
 }
 
 #char1 {
@@ -150,6 +149,9 @@
   width: 100%;
 }
 
+.pictureWords {
+  font-size: 4vh;
+}
 .tentacleContainer {
   position: absolute;
   display: flex;
@@ -159,6 +161,45 @@
   margin-right: 12.6vh; 
   height: 25vh;
   width: 99vw;
+}
+.tentacleWordsContainer {
+  position: absolute;
+  transform: rotate(-40.2deg);
+  height: 30vh;
+  bottom: 3vh;
+  width: 35vh;
+  left: 22vh;
+  cursor: pointer;
+}
+
+#tent_char1 {  
+  position: absolute;
+  top: 2vh;
+}
+#tent_char2 {  
+  position: absolute;
+  left: 3.2vh;
+  top: 2.7vh;
+}
+#tent_char3 {  
+  position: absolute;
+  left: 4.4vh;
+  top: 1vh;
+}
+#tent_char4 {  
+  position: absolute;
+  left: 6.8vh;
+  top: 2.2vh;
+}
+#tent_char5 {  
+  position: absolute;
+  left: 9.9vh;
+  top: 3.5vh;
+}
+#tent_char6 {  
+  position: absolute;
+  left: 12.9vh;
+  top: 2vh;
 }
 .tentacle {
   position: absolute;
@@ -202,6 +243,7 @@
 }
 
 .shakinghandsSubContainer {
+  font-size: 4vh;
   position: fixed;
   display: flex;
   align-self: flex-end;
@@ -210,6 +252,68 @@
   height: 103vh;
   width: 96.8vh;
 }
+.shakinghandsWordsContainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: rotate(-46.2deg);
+  align-self: flex-end;
+  top: 66vh;
+  left: 49.6vh;
+  height: 49vh;
+  width: 68.8vh;
+}
+
+#hands_char1 {  
+  position: absolute;
+  transform: rotate(-24deg);
+  top: 4.5vh;
+  left: 25vh;
+}
+#hands_char2 {  
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 3.6vh;
+  left: 27.2vh;
+}
+#hands_char3 {  
+  transform: rotate(-12deg);
+  position: absolute;
+  top: 3.2vh;
+  left: 28.2vh;
+}
+#hands_char4 {  
+  transform: rotate(-4deg);
+  position: absolute;
+  top: 2.8vh;
+  left: 31.2vh;
+}
+#hands_char5 {  
+  transform: rotate(4deg);
+  position: absolute;
+  top: 2.7vh;
+  left: 33.8vh;
+}
+#hands_char6 {  
+  transform: rotate(12deg);
+  position: absolute;
+  top: 3.2vh;
+  left: 36.2vh;
+}
+#hands_char7 {  
+  transform: rotate(22deg);
+  position: absolute;
+  top: 4.0vh;
+  left: 40.2vh;
+}
+#hands_char8 {  
+  transform: rotate(26deg);
+  position: absolute;
+  top: 4.8vh;
+  left: 41.2vh;
+}
+
+
 
 .shakinghands {
   position: absolute;

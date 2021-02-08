@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
           <LittleDude />
-          <Keyboard />
         <div className="mainContainer">
           <Pool />
           <Tentacle />
+          <Keyboard />
           <ShakingHands />
         </div>
       </div>
