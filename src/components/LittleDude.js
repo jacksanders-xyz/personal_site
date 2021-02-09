@@ -3,7 +3,7 @@ import computerJack from '../assets/computerJack.jpg';
 export function LittleDude() {
   return (     
     <div className="littleDudeContainer">
-          <img src={computerJack} className="App-logo" alt="logo"/>
+          <img src={computerJack} className="littleDude" alt="logo"/>
           <span className="jackNameWrap" id="char1">J</span>
           <span className="jackNameWrap" id="char2">A</span>
           <span className="jackNameWrap" id="char3">C</span>

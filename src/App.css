@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
 } 
-.App-logo {
+.littleDude {
   height: 80vh;
   width: 56.8vh;
   align-self: flex-start;
@@ -350,9 +350,6 @@
   top: 4.8vh;
   left: 41.2vh;
 }
-
-
-
 .shakinghands {
   position: absolute;
   align-self: flex-end;
@@ -364,34 +361,206 @@
   cursor: pointer;
 }
 
+@media (max-aspect-ratio: 3/2) {
+  .App {
+    background-color: rgba(255, 249, 255, 255);
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+  }
+  .littleDudeContainer{
+    position: relative;
+    width: 56.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  #char1 {
+    top: 1.50%;
+  }
+  #char2 {
+    top: 1.82%;
+  }
+  #char3 {
+    top: 2.66%;
+  }
+  #char4 {
+    top: 3.99%;
+  }
+  #char5 {
+    top: 7.14%;
+    right: 5.36vh;
+  }
+  #char6 {
+    top: 9.15%;
+  }
+  #char7 {
+    top: 11.21%;
+  }
+  #char8 {
+    top: 13.08%;
+  }
+  #char9 {
+    top: 14.99%;
+  }
+  #char10 {
+    top: 16.67%;
+  }
+  #char11 {
+    top: 18.49%;
+  }
+  #char12 {
+    top: 19.87%;
+  }
+  #char13 {
+    top: 22.82%;
+  }
+  #char14 {
+    top: 24.69%;
+  }
+  #char15 {
+    top: 26.46%;
+  }
+  #char16 {
+    top: 28.43%;
+  }
+  #char17 {
+    top: 30.1%;
+  }
+  #char18 {
+    top: 31.77%;
+  }
+  #char19 {
+    top: 32.75%;
+  }
+  .littleDude {
+    height: 80vh;
+    width: 56.8vh;
+    align-self: flex-start;
+  }
+  .mainContainer {
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    overflow: visible;
+    height: 200%;
+    width: 100%;
+  }
 
-
-
-
-/* .shakinghands { */
-/*   position: absolute; */
-  /* transform: rotate(-42.2deg); */
-  /* border: solid 1px; */ 
-  /* top: 66.54vh; */
-/*   height: 43vh; */
-  /* left: 144.9vh; */
-/*   width: 66.8vh; */
-/* } */
-
-
-
-/* .shakinghands { */
-/*   position: fixed; */
-/*   transform: rotate(-42.2deg); */
-/*   border: solid 1px; */ 
-/*   top: 66.54vh; */
-/*   height: 44vh; */
-/*   left: 74.6vw; */
-/*   width: 66.8vh; */
-/* } */
-
-
-
+  .jackNameWrap {
+    font-size: 3.6vh;
+  }
+  .tentacleContainer {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    margin-bottom: 8vh; 
+    margin-right: 12.6vh; 
+    height: 25vh;
+    width: 99vw;
+  }
+  .tentacleWordsContainer {
+    position: absolute;
+    transform: rotate(-40.2deg);
+    height: 30vh;
+    bottom: 3vh;
+    width: 35vh;
+    left: 22vh;
+    cursor: pointer;
+  }
+  .tentacle {
+    position: absolute;
+    height: 25vh;
+    cursor: pointer;
+  }
+  .poolContainer {
+    border: 10px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: 8vh; 
+    margin-left: 2.6vh; 
+    margin-top: 80.6vh; 
+    height: 35vh;
+    width: 99vw;
+  }
+  .poolWordsContainer {
+    transform: rotate(20deg);
+    position: absolute;
+    top: 3.4vh;
+    left: 85vh;
+    height: 18vh;
+    width: 18vh;
+  }
+  .pool {
+    z-index: 1;
+    position: absolute;
+    height: 28vh;
+    width: 54.8vh;
+    cursor: pointer;
+  }
+  .keyboardContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: 8vh; 
+    height: 25vh;
+    width: 99vw;
+  }
+  .keyboardWordsContainer {
+    font-size: 3.6vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: rotate(-72.5deg);
+    height: 25vh;
+    width: 25vh;
+    left: 20.0vh;
+  }
+  .keyboard{
+    position: absolute;
+    align-self: flex-start;
+    height: 21vh;
+    width: 54.8vh;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .shakinghandsSubContainer {
+    position: fixed;
+    display: flex;
+    align-self: flex-end;
+    overflow: hidden;
+    justify-content: flex-end;
+    height: 103vh;
+    width: 96.8vh;
+  }
+  .shakinghandsWordsContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: rotate(-46.2deg);
+    align-self: flex-end;
+    top: 66vh;
+    left: 49.6vh;
+    height: 49vh;
+    width: 68.8vh;
+  }
+  .shakinghands {
+    position: absolute;
+    align-self: flex-end;
+    transform: rotate(-46.2deg);
+    height: 43vh;
+    width: 64.8vh;
+    top: 67vh;
+    left: 50.6vh;
+    cursor: pointer;
+  }
+}
 
 
 /* @media (prefers-reduced-motion: no-preference) { */
@@ -399,13 +568,6 @@
 /*     animation: App-logo-spin infinite 20s linear; */
 /*   } */
 /* } */
-
-
-
-
-
-
-
 /* @keyframes App-logo-spin { */
 /*   from { */
 /*     transform: rotate(0deg); */
@@ -416,9 +578,3 @@
 /*   } */
 /* } */
 
-
-  /* height: 50vh; */
-  /* width: 100vw; */
-
-  /* height: 32vh; */
-  /* width: 30vw; */
