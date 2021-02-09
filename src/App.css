@@ -286,9 +286,9 @@
   display: flex;
   align-self: flex-end;
   overflow: hidden;
-  justify-content: flex-end;
+  justify-content: center;
   height: 103vh;
-  width: 96.8vh;
+  width: 98.8vh;
 }
 .shakinghandsWordsContainer {
   display: flex;
@@ -357,17 +357,18 @@
   height: 43vh;
   width: 64.8vh;
   top: 67vh;
-  left: 50.6vh;
+  left: 56.6vh;
   cursor: pointer;
 }
 
 @media (max-aspect-ratio: 3/2) {
   .App {
     background-color: rgba(255, 249, 255, 255);
-    overflow: visible;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 200vh;
+    width: 100vw;
   }
   .littleDudeContainer{
     position: relative;
@@ -442,23 +443,25 @@
   .mainContainer {
     position: absolute;
     display: flex;
-    align-self: flex-end;
-    justify-content: flex-end;
+    align-self: center;
+    justify-content: center;
     overflow: visible;
     height: 200%;
-    width: 100%;
+    width: 100vw;
   }
 
   .jackNameWrap {
     font-size: 3.6vh;
   }
   .tentacleContainer {
+    border: solid 10px;
     position: absolute;
     display: flex;
     justify-content: flex-start;
     align-self: flex-end;
     margin-bottom: 8vh; 
-    margin-right: 12.6vh; 
+    right: 0vh; 
+    top: 144.4vh;
     height: 25vh;
     width: 99vw;
   }
@@ -472,27 +475,28 @@
     cursor: pointer;
   }
   .tentacle {
+    z-index: 1;
     position: absolute;
     height: 25vh;
     cursor: pointer;
   }
   .poolContainer {
-    border: 10px solid;
     position: absolute;
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    margin-bottom: 8vh; 
-    margin-left: 2.6vh; 
-    margin-top: 80.6vh; 
+    margin-right: 0vh; 
+    left: 5vh; 
+    right: 0vh; 
+    top: 94.4vh;
     height: 35vh;
     width: 99vw;
   }
   .poolWordsContainer {
     transform: rotate(20deg);
-    position: absolute;
-    top: 3.4vh;
-    left: 85vh;
+    position: relative;
+    top: 2.60vh;
+    left: 26.7vh;
     height: 18vh;
     width: 18vh;
   }
@@ -508,7 +512,9 @@
     display: flex;
     justify-content: center;
     align-self: flex-end;
+    top: 240vh;
     margin-bottom: 8vh; 
+    left: 10vh;
     height: 25vh;
     width: 99vw;
   }
@@ -516,11 +522,11 @@
     font-size: 3.6vh;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     transform: rotate(-72.5deg);
     height: 25vh;
     width: 25vh;
-    left: 20.0vh;
+    right: 16.4vh;
   }
   .keyboard{
     position: absolute;
@@ -531,50 +537,93 @@
     cursor: pointer;
   }
   .shakinghandsSubContainer {
-    position: fixed;
+    overflow: visible;
+    position: absolute;
     display: flex;
     align-self: flex-end;
-    overflow: hidden;
-    justify-content: flex-end;
-    height: 103vh;
-    width: 96.8vh;
+    justify-content: center;
+    top: 180vh;
+    left: 0vw;
+    height: 43vh;
+    width: 104vw;
   }
   .shakinghandsWordsContainer {
+    border: solid 1px;
     display: flex;
     justify-content: center;
     position: absolute;
-    transform: rotate(-46.2deg);
-    align-self: flex-end;
-    top: 66vh;
-    left: 49.6vh;
-    height: 49vh;
-    width: 68.8vh;
+    transform: rotate(0deg);
+    top: 0vh;
+    left: 0vw ;
+    right: 0vw;
+    height: 43vh;
+    width: 100vw;
+    bottom-margin: 10vh;
+  }
+  /* #hands_char1 { */  
+  /*   position: absolute; */
+  /*   transform: rotate(-24deg); */
+  /*   top: 4.5vh; */
+  /*   left: 25vh; */
+  /* } */
+  #hands_char1 {  
+    position: absolute;
+    transform: rotate(-24deg);
+    top: 4.3vh;
+    left: 47vw;
+  }
+  #hands_char2 {  
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 3.7vh;
+    left: 51.2vw;
+  }
+  #hands_char3 {  
+    transform: rotate(-12deg);
+    position: absolute;
+    top: 3.2vh;
+    left: 28.2vh;
+  }
+  #hands_char4 {  
+    transform: rotate(-4deg);
+    position: absolute;
+    top: 2.8vh;
+    left: 31.2vh;
+  }
+  #hands_char5 {  
+    transform: rotate(4deg);
+    position: absolute;
+    top: 2.7vh;
+    left: 33.8vh;
+  }
+  #hands_char6 {  
+    transform: rotate(12deg);
+    position: absolute;
+    top: 3.2vh;
+    left: 36.2vh;
+  }
+  #hands_char7 {  
+    transform: rotate(22deg);
+    position: absolute;
+    top: 4.0vh;
+    left: 40.2vh;
+  }
+  #hands_char8 {  
+    transform: rotate(26deg);
+    position: absolute;
+    top: 4.8vh;
+    left: 41.2vh;
   }
   .shakinghands {
     position: absolute;
     align-self: flex-end;
-    transform: rotate(-46.2deg);
+    transform: rotate(0deg);
     height: 43vh;
-    width: 64.8vh;
-    top: 67vh;
-    left: 50.6vh;
+    width: 110%;
+    top: 0vh;
+    left: 0vh;
     cursor: pointer;
   }
 }
 
-
-/* @media (prefers-reduced-motion: no-preference) { */
-/*   .App-logo { */
-/*     animation: App-logo-spin infinite 20s linear; */
-/*   } */
-/* } */
-/* @keyframes App-logo-spin { */
-/*   from { */
-/*     transform: rotate(0deg); */
-/*   } */
-
-/*   to { */
-/*     transform: rotate(360deg); */
-/*   } */
-/* } */
 
