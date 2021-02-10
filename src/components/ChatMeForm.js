@@ -2,8 +2,6 @@ import { Component } from 'react';
 import IphoneMarket from '../assets/IphoneMarket.png';
 
 class ChatMeForm extends Component {
-
-
   state = {
     emailAddress: '',
     Message: ''
@@ -12,13 +10,8 @@ class ChatMeForm extends Component {
   handleChange = (input) => {
     this.setState({[input.target.name]: input.target.value})
   }
-  
-
 
   handleSubmit = (input) => {}
-
-
-
 
   render() {
     return (
