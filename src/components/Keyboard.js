@@ -4,7 +4,12 @@ export function Keyboard(props) {
   return (     
       <div className="keyboardContainer">
         <div className="keyboardWordsContainer">CHAT</div>
-        <img src={KeyboardPic} onClick={props.chatMe} className="keyboard" alt="logo"/>
+        <img src={KeyboardPic}  className="keyboard" alt="logo"/>
       </div>
     );
 }
+
+
+
+
+// onClick={props.chatMe}
