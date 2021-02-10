@@ -406,13 +406,13 @@
     top: 14.99%;
   }
   #char10 {
-    top: 16.67%;
+    top: 16.87%;
   }
   #char11 {
-    top: 18.49%;
+    top: 18.84%;
   }
   #char12 {
-    top: 19.87%;
+    top: 20.10%;
   }
   #char13 {
     top: 22.82%;
@@ -424,16 +424,16 @@
     top: 26.46%;
   }
   #char16 {
-    top: 28.43%;
+    top: 28.58%;
   }
   #char17 {
-    top: 30.1%;
+    top: 30.4%;
   }
   #char18 {
-    top: 31.77%;
+    top: 32.22%;
   }
   #char19 {
-    top: 32.75%;
+    top: 33.3%;
   }
   .littleDude {
     height: 80vh;
@@ -454,7 +454,6 @@
     font-size: 3.6vh;
   }
   .tentacleContainer {
-    border: solid 10px;
     position: absolute;
     display: flex;
     justify-content: flex-start;
@@ -545,10 +544,9 @@
     top: 180vh;
     left: 0vw;
     height: 43vh;
-    width: 104vw;
+    width: 114vw;
   }
   .shakinghandsWordsContainer {
-    border: solid 1px;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -560,59 +558,54 @@
     width: 100vw;
     bottom-margin: 10vh;
   }
-  /* #hands_char1 { */  
-  /*   position: absolute; */
-  /*   transform: rotate(-24deg); */
-  /*   top: 4.5vh; */
-  /*   left: 25vh; */
-  /* } */
   #hands_char1 {  
     position: absolute;
-    transform: rotate(-24deg);
+    transform: rotate(-20deg);
     top: 4.3vh;
     left: 47vw;
   }
   #hands_char2 {  
     position: absolute;
-    transform: rotate(-20deg);
+    transform: rotate(-18deg);
     top: 3.7vh;
-    left: 51.2vw;
+    left: 50.8vw;
   }
   #hands_char3 {  
-    transform: rotate(-12deg);
+   transform: rotate(-10deg);
     position: absolute;
-    top: 3.2vh;
-    left: 28.2vh;
+    top: 3.28vh;
+    left: 53.1vw;
   }
   #hands_char4 {  
-    transform: rotate(-4deg);
+    transform: rotate(-1deg);
     position: absolute;
-    top: 2.8vh;
-    left: 31.2vh;
+    top: 2.94vh;
+    left: 58.5vw;
   }
   #hands_char5 {  
     transform: rotate(4deg);
     position: absolute;
-    top: 2.7vh;
-    left: 33.8vh;
+    top: 2.96vh;
+    left: 63.2vw;
+
   }
   #hands_char6 {  
-    transform: rotate(12deg);
+    transform: rotate(8deg);
     position: absolute;
-    top: 3.2vh;
-    left: 36.2vh;
+    top: 3.32vh;
+    left: 67.2vw;
   }
   #hands_char7 {  
-    transform: rotate(22deg);
+    transform: rotate(18deg);
     position: absolute;
-    top: 4.0vh;
-    left: 40.2vh;
+    top: 3.7vh;
+    left: 74.2vw;
   }
   #hands_char8 {  
-    transform: rotate(26deg);
+    transform: rotate(20deg);
     position: absolute;
-    top: 4.8vh;
-    left: 41.2vh;
+    top: 4.3vh;
+    left: 76.0vw;
   }
   .shakinghands {
     position: absolute;
