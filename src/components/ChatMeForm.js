@@ -22,10 +22,10 @@ class ChatMeForm extends Component {
             <form onSubmit={this.handleSubmit} className="ChatMeForm">
             <h1 className="ChatMeFormHeader">got something to say?</h1>
 
-            <label className="ChatMeFormSubHeader">What's your email?</label>
+            <label className="ChatMeFormSubHeader">what's your email?</label>
             <input className="emailAddress" name="emailAddress" 
             value={this.state.emailAddress} onChange={this.handleChange}
-            placeholder="email address"/>
+            placeholder="email address..."/>
 
             <label className="ChatMeFormSubHeader">say something:</label>
             <textarea className="Message" name="Message" 
