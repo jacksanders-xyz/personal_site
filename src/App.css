@@ -771,4 +771,97 @@
   }
 }
 
+@media (max-width: 400px) {
+  .littleDudeContainer{
+    position: relative;
+    width: 56.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .littleDude {
+    height: 80vh;
+    width: 56.8vh;
+    margin-right: 4%;
+    align-self: flex-start;
+  }
+  .jackNameWrap {
+    font-size: 3.6vh;
+    margin-right: 3.5%;
+  }
+  .poolContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    right: 4vw;
+    top: 147.0vh;
+    height: 30vh;
+    width: 99vw;
+  }
+  .poolWordsContainer {
+    align-self: flex-start;
+    transform: rotate(20deg);
+    position: relative;
+    top: 5.00%;
+    left: 46%;
+    height: 18vh;
+    width: 18vh;
+  }
+  .pool {
+    z-index: 1;
+    position: absolute;
+    height: 62%;
+    width: 94.8%;
+    cursor: pointer;
+  }
+  .shakinghands {
+    position: absolute;
+    align-self: flex-end;
+    transform: rotate(0deg);
+    height: 80%;
+    width: 110%;
+    top: 0vh;
+    left: 0vh;
+    cursor: pointer;
+  }
+  .shakinghandsSubContainer {
+    overflow: visible;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    top: 222vh;
+    left: -12.8vw;
+    height: 93vw;
+    width: 114vw;
+  }
+  .shakinghandsWordsContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: rotate(0deg);
+    top: 0vh;
+    left: 0vw ;
+    right: 0vw;
+    height: 43vh;
+    width: 100vw;
+    bottom-margin: 10vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
