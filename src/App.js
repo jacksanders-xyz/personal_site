@@ -16,7 +16,6 @@ class App extends Component {
     (this.state.chatFormIsClicked === false) 
       ? this.setState({chatFormIsClicked: true}) 
       : this.setState({chatFormIsClicked: false })
-    console.log("hello")
   }
     
   render() {
