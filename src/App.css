@@ -6,7 +6,6 @@
   height: 100vh;
   width: 100vw;
 }
-
 .littleDudeContainer{
   background-color: rgba(255, 249, 255, 255);
   position: relative;
@@ -24,7 +23,6 @@
 .jackNameWrap {
   font-size: 3.6vh;
 }
-
 #char1 {
   position: absolute;
   top: 3.05%;
@@ -138,7 +136,6 @@
   top: 66.6%;
   right: 13.4vh;
 }
-
 .mainContainer {
   position: absolute;
   display: flex;
@@ -148,7 +145,6 @@
   height: 100%;
   width: 100%;
 }
-
 .pictureWords {
   font-size: 4vh;
 }
@@ -280,7 +276,6 @@
   z-index: 1;
   cursor: pointer;
 }
-
 .shakinghandsSubContainer {
   position: fixed;
   display: flex;
@@ -301,7 +296,6 @@
   height: 49vh;
   width: 68.8vh;
 }
-
 #hands_char1 {  
   position: absolute;
   transform: rotate(-24deg);
@@ -360,22 +354,29 @@
   left: 56.6vh;
   cursor: pointer;
 }
-
 .ChatMeFormBigContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .ChatMeFormSubContainer {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-self: center;
   justify-content: center;
-  height: 75vh;
-  width: 60%;
+  height: 90vh;
+  width: 58%;
 }
-
+.IphoneMarket {
+  align-self: flex-end;
+  height: 100vh;
+  width: 75vh;
+  margin: auto;
+}
 .ChatMeForm {
   box-shadow: 
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -388,7 +389,7 @@
   display: flex;
   flex-direction: column;
   border: 1px solid;
-  width: 60%;
+  width: 80%;
   height: 100%;
 }
 .ChatMeFormHeader {
@@ -401,19 +402,20 @@
 }
 .emailAddress {
   align-self: center;
+  font-size: 2.0vh;
   border-radius: 3px;
   border: 1px solid;
   height: 5%;
-  width: 60%;
+  width: 70%;
 }
 .Message {
   align-self: center;
+  font-size: 2.0vh;
   border: 1px solid;
   border-radius: 3px;
   height: 60%;
-  width: 60%;
+  width: 70%;
 }
-
 .sendMessageButton {
   font-size: 2.0vh;
   align-self: center;
@@ -421,9 +423,8 @@
   border-radius: 3px;
   margin-top: 1%;
   height: 5%;
-  width: 61.4%;
+  width: 71.0%;
 }
-
 .epicFail_container {
   display: flex;
   align-self: center;
@@ -432,7 +433,6 @@
   width: 100vw;
   overflow: hidden;
 }
-
 .epicFail_message{
   display: flex;
   flex-direction: column;
@@ -442,7 +442,6 @@
   height: 50%;
   width: 30%;
 } 
-
 .epicFail_button {
   align-self: center;
   border: 1px solid;
@@ -452,9 +451,6 @@
   height: 10%;
   width: 30%;
 } 
-
-
-
 
 
 
@@ -787,8 +783,8 @@
   }
   .IphoneMarket {
     align-self: flex-end;
-    height: 60%;
-    width: 90%;
+    height: 100vh;
+    width: 75vh;
     margin: auto;
   }
   .epicFail_container {
@@ -903,8 +899,8 @@
   }
   .IphoneMarket {
     align-self: flex-end;
-    height: 45%;
-    width: 100%;
+    height: 100vh;
+    width: 75vh;
     margin: auto;
   }
 
@@ -995,7 +991,6 @@
 
 }
 
-/* iphone 5/7/8 */
 /* iphone 11*/
 @media (max-width: 828px) and (max-height: 1792px) {
   .littleDudeContainer{

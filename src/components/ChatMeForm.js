@@ -52,7 +52,7 @@ class ChatMeForm extends Component {
     return (
      (!this.state.messageWasSent) 
         ? <div className="ChatMeFormBigContainer">
-            <img src={IphoneMarket} className="IphoneMarket" alt="logo"/>
+          <img src={IphoneMarket} className="IphoneMarket" alt="logo"/>
             <div className="ChatMeFormSubContainer" >
 
                 <form onSubmit={this.handleSubmit} className="ChatMeForm">
