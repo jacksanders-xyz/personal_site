@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import IphoneMarket from '../assets/Iphonemarket2.jpg';
+import clippedHand from '../assets/clipped_hand2.png';
 
 class ChatMeForm extends Component {
   url = "https://ezbskq5cn9.execute-api.us-east-1.amazonaws.com/default/lambdaEmailc0de" 
@@ -52,6 +53,9 @@ class ChatMeForm extends Component {
     return (
      (!this.state.messageWasSent) 
         ? <div className="ChatMeFormBigContainer">
+      <div className="handContainer">
+        <img src={clippedHand} onClick={this.props.chatMe} className="clippedHand" alt="logo"/>
+      </div>
           <img src={IphoneMarket} className="IphoneMarket" alt="logo"/>
             <div className="ChatMeFormSubContainer" >
 

@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       this.state.chatFormIsClicked 
-        ? <ChatMeForm/> 
+        ? <ChatMeForm chatMe={this.chatMe} /> 
         : <div className="App">
             <LittleDude />                   
             <div className="mainContainer">
