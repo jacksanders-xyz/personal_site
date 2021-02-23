@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import IphoneMarket from '../assets/IphoneMarket.png';
+import IphoneMarket from '../assets/Iphonemarket2.jpg';
 
 class ChatMeForm extends Component {
   url = "https://ezbskq5cn9.execute-api.us-east-1.amazonaws.com/default/lambdaEmailc0de" 
